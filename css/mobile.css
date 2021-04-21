@@ -1,0 +1,49 @@
+@media(max-width:480px){
+    .content-full{
+        display: none;
+    }
+    .content-mobile{
+        width: 100%;
+        display: block;
+    }
+
+    .content-mobile .row{
+      width: 100%;
+      background-color: rgba(24, 20, 255, 0.877) ;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .content-mobile .row ul {
+        width: 100%;
+        padding-left: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .content-mobile .row ul li{
+        padding: 5px 10px;
+        list-style: none;
+        font-family: fantasy;
+        font-size: 1.5rem;
+        width: auto;
+        height: 100%;
+        text-align: center;
+        
+    }
+
+    .content-mobile .row ul li:hover{
+        background-color:  #1814ffb4;
+;
+    }
+    
+    .content-mobile .row ul li a{
+        width: 100%;
+        height: 100%;
+        text-decoration: none;
+        color: rgb(41, 39, 39);
+    }
+}
